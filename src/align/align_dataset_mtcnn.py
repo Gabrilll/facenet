@@ -29,7 +29,7 @@ from scipy import misc
 import sys
 import os
 import argparse
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
 import facenet
 import align.detect_face
